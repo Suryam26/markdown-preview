@@ -1,15 +1,15 @@
 <script>
-import { marked } from 'marked'
-import { debounce } from 'lodash-es'
+import {marked} from 'marked'
+import {debounce} from 'lodash-es'
 
 export default {
   data: () => ({
-    input: '# Markdown Preview',
+    input: '# Simple Markdown Preview',
     darkMode: false
   }),
   computed: {
     output() {
-      return marked(this.input, { breaks: true })
+      return marked(this.input, {breaks: true})
     }
   },
   methods: {
@@ -21,10 +21,6 @@ export default {
 </script>
 
 <template>
-  <!-- <div class="header">
-    <a href="/">Markdown Preview</a>
-    <a @click="darkMode = !darkMode">{{ darkMode ? "light-theme" : "dark-theme" }}</a>
-  </div> -->
   <div class="editor">
     <textarea class="input" :value="input" @input="update"></textarea>
     <div class="output" v-html="output"></div>

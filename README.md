@@ -1,29 +1,62 @@
-# markdown
+# Simple Markdown Preview
 
-This template should help get you started developing with Vue 3 in Vite.
+## Introduction
+Welcome to Simple Markdown Preview! This project is a Vue application that allows you to preview markdown as you make changes to it in real time.
 
-## Recommended IDE Setup
+## Features
+- Real-time markdown preview
+- Simple and intuitive interface
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Installation
 
-## Customize configuration
+### Prerequisites
+- Node.js
+- npm (or yarn)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Steps
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Suryam26/markdown-preview
+    cd markdown-preview
+    ```
 
-## Project Setup
+2. Install the dependencies:
+    ```sh
+    npm install
+    ```
+    or
+    ```sh
+    yarn install
+    ```
 
+## Usage
+To start the development server and see the application in action, run:
 ```sh
-npm install
+npm run serve
+```
+or
+```sh
+yarn serve
 ```
 
-### Compile and Hot-Reload for Development
+Then, open your browser and go to http://localhost:5173/ to see the application.
 
-```sh
-npm run dev
-```
+## Technologies Used
+- **Frontend**: Vue.js
 
-### Compile and Minify for Production
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
 
-```sh
-npm run build
-```
+
+## Contact
+For any inquiries, please contact [suryam.jain@gmail.com](mailto:[suryam.jain@gmail.com]).
+
+---
+
+**Happy Coding!**
+
