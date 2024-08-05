@@ -33,30 +33,8 @@ body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
-.header {
-  display: flex;
-  position: sticky;
-  top: 0;
-  padding: 15px;
-  background-color: #444;
-  color: white;
-  font-size: small;
-}
-
-.header a,
-.header a:hover {
-  color: white;
-  text-decoration: none;
-  margin-left: 10px;
-  cursor: pointer;
-}
-
-.header a:hover {
-  text-decoration: underline;
-}
-
 .editor {
-  height: 95vh;
+  height: 100vh;
   display: flex;
 }
 
